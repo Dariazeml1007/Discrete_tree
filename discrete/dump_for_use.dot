@@ -1,0 +1,16 @@
+digraph structs
+{
+	rankdir=HR;
+	node[shape = circle, color= "#003A8C",style="filled", fillcolor="#B4FBFF", fontsize=14];
+	edge[color="black", weight = 9,fontsize=14];
+	el_00FD163C [shape=circle, label= "|"];
+	el_00FD1628 [shape=circle, label= "x"];
+	el_00FD1664 [shape=circle, label= "&"];
+	el_00FD1650 [shape=circle, label= "y"];
+	el_00FD1678 [shape=circle, label= "z"];
+	el_00FD163C->el_00FD1628;
+	el_00FD163C->el_00FD1664;
+	el_00FD1664->el_00FD1650;
+	el_00FD1664->el_00FD1678;
+
+}

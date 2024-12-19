@@ -1,0 +1,12 @@
+digraph structs
+{
+	rankdir=HR;
+	node[color= "#003A8C",style="filled", fillcolor="#B4FBFF", fontsize=14];
+	edge[color="black", weight = 9,fontsize=14];
+	el_00AD163C [shape=record, label= "addr_left = 00AD1628 | address = 00AD163C||| addr_parent = 00000000 | addr_right = 00AD1650"];
+	el_00AD1628 [shape=record, label= "address = 00AD1628|x| addr_parent = 00AD163C"];
+	el_00AD1650 [shape=record, label= "address = 00AD1650|y| addr_parent = 00AD163C"];
+	el_00AD163C->el_00AD1628;
+	el_00AD163C->el_00AD1650;
+
+}
